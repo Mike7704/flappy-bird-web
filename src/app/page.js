@@ -1,8 +1,10 @@
+import Game from "@/components/Game";
+
 export default function Home() {
   return (
     <div>
-      <main></main>
-      <footer></footer>
+      <Game />
+      <footer>Michael Cowley</footer>
     </div>
   );
 }
